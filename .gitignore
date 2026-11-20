@@ -1,0 +1,21 @@
+# --- Secrets and credentials: never commit ---
+.env
+*.env
+*.pem
+*.key
+*.p12
+id_rsa*
+id_ed25519*
+.vault_pass*
+secrets/
+*credentials*
+
+# --- Editor and OS files ---
+*.swp
+*~
+.DS_Store
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
